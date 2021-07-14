@@ -1,0 +1,39 @@
+LANGKAH INSTALASI !!!
+=====================
+
+Jika menggunakan aplikasi XAMMP :
+1. Extract file pos-kel2.zip ke direktori C:\xampp\htdocs
+2. Jalankan XAMPP, Run Apache dan MySQL
+3. Buka Chrome/Firefox/Edge
+4. Buka alamat localhost/phpmyadmin
+5. Buat database baru dengan nama db_pos
+6. Impor db_pos_kel2.sql yang ada di C:\xampp\htdocs\pos-kel2
+7. Buka file koneksi.php yang ada di C:\xampp\htdocs\pos-kel2\koneksi
+8. Edit menjadi :
+	// --- Koneksi ---
+	$hostname_koneksi = "localhost";
+	$database_koneksi = "db_pos";
+	$username_koneksi = "root";
+	$password_koneksi = "";
+9. Simpan,
+10. Buka kembali Chrome/Firefox/Edge
+11. Buka alamat localhost/pos-kel2
+=============================================================
+
+Jika menggunakan aplikasi AMPPS :
+1. Extract file pos-kel2.zip ke direktori C:\Program Files\Ampps\www
+2. Jalankan AMPPS, Run Apache dan MySQL
+3. Buka Chrome/Firefox/Edge
+4. Buka alamat localhost/phpmyadmin
+5. Buat database baru dengan nama db_pos
+6. Impor db_pos_kel2.sql yang ada di C:\Program Files\Ampps\www\pos-kel2
+7. Buka file koneksi.php yang ada di C:\Program Files\Ampps\www\pos-kel2\koneksi
+8. Edit menjadi :
+	// --- Koneksi ---
+	$hostname_koneksi = "localhost";
+	$database_koneksi = "db_pos";
+	$username_koneksi = "root";
+	$password_koneksi = "mysql";
+9. Simpan,
+10. Buka kembali Chrome/Firefox/Edge
+11. Buka alamat localhost/pos-kel2
